@@ -50,7 +50,7 @@ $language_data = array (
         // property binding
         3 => "/([a-z][\\w\\.]*)(?=:)/",
         // TODO: property name (fixed length lookbehind assertion?)
-        4 => "/(?<=property\\s+\\w+\\s+)(\\w+)/"
+        //4 => "/(?<=property\\s+\\w+\\s+)(\\w+)/"
         ),
     'CASE_KEYWORDS' => GESHI_CAPS_NO_CHANGE,
     'QUOTEMARKS' => array("'", '"'),
